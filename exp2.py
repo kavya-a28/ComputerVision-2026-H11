@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 image = cv2.imread("dog.jpg",cv2.IMREAD_GRAYSCALE)
 print(image.shape)
-plt.imshow(image,cmap="gray")
+plt.imshow(image)
 plt.title("Gray Image")
 plt.show()
 
